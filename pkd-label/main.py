@@ -116,7 +116,7 @@ def main(codes: list[str]) -> None:
                     "HTTP": "An HTTP error occured.",
                     "CONNECTION": "A connection error occured. Double check if your Internet connection is working!",
                     "UNKNOWN": "An unknown error occured. Report this in the GitHub issues section.",
-                }[data],
+                }[data["error"]],
             )
             exit(1)
 
