@@ -79,7 +79,7 @@ def fetch_info(code: str) -> dict[str, str | list[str]]:
         related_codes: list[str] = [
             x[x.index('.html">PKD ') + 11 :].removesuffix("</a></td>")
             for x in related_codes_lines
-            if x.startswith('href="/wyszukiwarka/pkd/6') and x.endswith("</td>")
+            if x.startswith('href="/wyszukiwarka/pkd/') and x.endswith("</td>")
         ]
 
         return {
