@@ -1,6 +1,6 @@
 # pkd-label
 
-Script for PKD (Polska Klasyfikacja Działalności) code data fetching via scraping the pkd.com.pl website.
+Script for PKD (Polska Klasyfikacja Działalności) code data fetching via scraping the pkd.com.pl website.  
 It is intentionally not using BeautifulSoup (or a similar HTML parsing library) as a challenge (and sake of simplicity).
 
 ## Requirements

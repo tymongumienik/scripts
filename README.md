@@ -5,3 +5,4 @@ A collection of random utility scripts, of which some are purely made for entert
 ## Contents
 
 - **[pkd-label](./pkd-label)**: A tool to fetch and display information about Polska Klasyfikacja Działalności (PKD) codes via scraping.
+- **[justjoinit-scraper](./justjoinit-scraper)**: A tool to fetch and display information about job offers via scraping.

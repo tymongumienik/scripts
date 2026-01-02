@@ -14,6 +14,7 @@ def verify_code(code: str) -> bool:
 
 
 def fetch_info(code: str) -> dict[str, str | list[str]]:
+    """Fetch information about a PKD code"""
     url: str = f"https://www.pkd.com.pl/wyszukiwarka/pkd/{code}.html"
 
     try:
