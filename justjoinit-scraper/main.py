@@ -7,6 +7,7 @@ import webbrowser
 import tempfile
 
 BASE_URL: str = "https://justjoin.it"
+TEMPLATE_PATH: str = "template.html"
 
 
 def fetch_data_payload(
@@ -220,7 +221,7 @@ def main() -> None:
                 }
             )
 
-        with open("page.htmltemplate") as template:
+        with open(TEMPLATE_PATH) as template:
             template_content: str = template.read()
 
         with tempfile.NamedTemporaryFile(suffix=".html", delete=False) as tmp:
